@@ -1,0 +1,1181 @@
+ 
+/* All Pages */
+
+.alert-warning {
+    border-color:#000;
+}
+.alert {
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+}
+.hero-hr-white {
+  height: 7px;
+  width: 50px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.hero-hr-black {
+  height: 4px;
+  width: 50px;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+.buyback-hr-red {
+  height: 4px;
+  max-width: 865px;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  margin: 10px auto;
+  
+}
+
+.card-center h3 {
+  text-align: center;
+  display: inline-block;
+}
+
+/* Header Menu */
+.site-logo {
+  width: 282px;
+}
+  /* Media Query  */
+  @media only screen and (max-width: 479px) {
+    .site-logo {
+      width: 200px;
+    }
+  }
+
+/*
+  About Page CSS Ends ---------------------------------------------------------------------- 
+*/
+
+
+/*
+  About Page CSS Ends ---------------------------------------------------------------------- 
+*/
+
+/* All hero Section CSS  */
+.all-hero {
+  background-color: #000;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+
+/* @media only screen and (min-width:767px) and (max-width:990px) {
+  .all-hero {
+    height: 315px;
+  }
+  .section-Video {
+    display: none;
+    visibility: hidden;
+  }
+  .otherPage-hero {
+    display: block;
+  }
+  
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+  .all-hero {
+    height: 300px;
+  }
+  .section-Video {
+    display: none;
+    visibility: hidden;
+  }
+  .otherPage-hero {
+    display: block;
+  }
+} */
+
+
+.buyback-hero {
+  background: url("../../assets/images/myimage/Banner_Buy_Back_Program-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+.faq-bg{
+  background: url("../../assets/images/myimage/FAQ-Banner-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.discountcard-bg{
+  background: url("../../assets/images/myimage/DiscountCardPage/Discount-Card_Banner-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+/* Buy Back Page CSS  */
+
+ table .cellpad {
+  padding-left: 25px;
+}
+
+
+/* Buy Back Page CSS Ends -------------------------------------------------------------------  */
+
+/* DiscountCard Page CSS starts*/
+
+
+
+.unlock-deal {
+    background-color: #855399;
+    border-radius: 10px;
+}
+.hrlineyellow {
+    border:none;
+    border-bottom: 3.5px solid rgb(216, 162, 12);
+    width: 10%;
+
+}
+.cardinput {
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  font-size: 15px;
+  width: 75%;
+  background: #fff;
+  border:none;
+  border-radius:5px;
+  -webkit-border-radius: 5px;
+  text-align: left;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding-left: 20px;
+  padding-right: 10px;
+  outline: 0;
+}
+#s-btn {
+    background-color: #3e136c;
+    color: #fff;
+}
+#s-btn:hover {
+    background-color: #2a2d26;
+}
+.dealtext {
+    padding-left: 40px;
+}
+.dealbox {
+    position: relative;
+}
+.dealbox .dealimage {
+    position: absolute;
+    top: -60px;
+    bottom: 15px;
+}
+
+/* Flip Card Code */
+.flip-card {
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+  perspective: 1000px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 50%;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 100%;
+}
+
+.flip-card-front {
+  background-color: rgb(252, 252, 252);
+  color: black;
+  border-radius: 100%;
+}
+.flip-card-front img {
+  width: 100%;
+ padding:18px;
+}
+
+.flip-card-back {
+  background-color:var(--primary-background);
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 100%;
+}
+.alter{
+  background-color: var(--brand-color-brown);
+}
+.flip-card-back p {
+  padding-top: 30px;
+}
+
+/* DiscountCard Page CSS Ends -------------------------------------------------------------------  */
+
+/* FAQ page CSS Starts  */
+.multi-button a {
+  min-width: 500px;
+  font-weight: 500;
+  text-transform: uppercase;
+  }
+/* .faq-background-img {
+      background: url("/assets/images/myimage/FAQ-Banner-Image.jpg");
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-blend-mode: multiply;
+  } */
+.trend-more {
+      
+      font-size: 65px;
+      font-weight: 800;
+      margin-bottom: 50px;
+  }
+/* FAQ accordion */
+.accordionfaq {
+    background-color: #eee;
+    color: red;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+   
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s;
+    
+  }
+  
+  .box {
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordionfaq:before {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: left;
+    margin-right: 8px;
+  }
+  
+  .active.accordionfaq:before {
+    content: "\2212";
+  }
+  
+  .panel-faq {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .faq-button {
+      padding: 0;
+  }
+  .faq-button .btn-faq {
+      padding: 5px 45px;
+      color: #fff;
+  }
+
+/* FAQ page CSS Ends --------------------------------------------------------------------  */
+
+/* Home Page CSS Starts */
+.header-top-bar .toplinks {
+  color: brown;
+  text-decoration: underline;
+  margin: 0px 3px;
+}
+.more  {
+    background-color: var(--primary-background);
+    padding: 30px 0px;
+}
+.more h2 {
+    color: var(--headline-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 60px 0px;
+    font-size: 72px;
+    font-weight: 900;
+    font-family: "futura-pt-condensed", sans-serif;
+}
+.more p {
+    text-align: center;
+    color: #fff;
+    margin: 25px 150px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'futura-pt', sans-serif;
+}
+.single-col .blackdiv {
+    background-color: var(--third-background);
+    color: var(--headline-color);
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+     
+}
+.cardtitle {
+    font-family: "futura-pt-condensed", sans-serif;
+    color: #fff;
+}
+.discountcard {
+    background-color: var(--secondary-background);
+    text-align: center;
+    padding: 25px 15px;
+    background-image: url("../../assets/images/NorequestNewimage/Hero_Banner_Image-DiscountCard.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+ 
+    margin-bottom: 25px;
+}
+.shop-now {
+    background-color: var(--primary-background);
+    padding: 10px 25px;
+    color: #ffffff;
+    font-family: "futura-pt-condensed", sans-serif;
+    font-size: large;
+    font-weight: 600;
+    margin: 10px 0px;
+    display: inline-block;
+}
+.shop-now:hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--btn-hover-color);
+}
+.card-center {
+    margin: 100px auto;
+    text-align: center;
+}
+.card-center h2 {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.visitcampus {
+    background-color: var(--primary-background);
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visitcampus .location {
+    padding: 10px 25px;
+    background-color: white;
+    margin: 0px 10xp;
+    color: #000;
+}
+.visitcampus .location:hover {
+  background-color:var(--btn-hover-color);
+  color: #fff;
+}
+.visitcampus .campus {
+  font-weight: 500;
+  padding-left: 5px;
+  margin-right:45px ;
+}
+.shopNowMore {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+.trend-mid {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.sign-up h2 {
+margin: 10px 0px;
+}
+.sign-up h5 {
+    font-weight: 900;
+   
+    }
+.sign-up-form {
+    width: 350px;
+    margin: 25px auto;
+}
+.sign-up-form input[type="submit"] {
+    background-color: #fff;
+    background-image: url(../../assets/images/myimage/Email-Grey.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 50px;
+    width: 50px;
+    border: #fff;
+    /* padding: 5px; */
+    margin-left: 5px;
+  
+}
+.product-section-title {
+    color: var(--primary-background);
+    text-align: center;
+    margin: 50px 0px 10px 0px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.input-group {
+    border-radius: 0px;
+}
+#signupsubmit:hover {
+background-color: var(--btn-hover-color);
+color: #fff;
+background-image: url(../../assets/images/myimage/Email-CircleGrey.png);
+}
+.sign-up h4 {
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.dual-btn {
+  margin: 5px 5px;
+  padding: 10px 0px;
+  width: 150px;
+  display: inline-block;
+  background-color: var(--primary-background);
+  color: #ffffff;
+  font-family: "futura-pt-condensed", sans-serif;
+  font-size: large;
+  font-weight: 600;
+    
+}
+.dual-btn a {
+  color: #fff;
+}
+.dual-btn:hover {
+  background-color: var(--btn-hover-color);
+}
+.dual-btn2 {
+  margin: 5px 5px;
+  padding: 10px 0px;
+  width: 150px;
+  display: inline-block;
+  border: 1px solid #000;
+  color: #000000;
+  font-family: "futura-pt", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+    
+}
+.dual-btn2 a {
+  color: #000000;
+}
+
+
+/* Home Page CSS Ends -------------------------------------------------------------------  */
+
+/* Location Page CSS Starts */
+.location-hero {
+  background: url("../../assets/images/NorequestNewimage/location_banner.jpg"), rgba(0, 0, 0, 0.678);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: multiply;
+}
+/* Location Page CSS Ends ---------------------------------------------------------------- */
+
+/* Manifesto Page CSS Starts */
+
+/* Manifesto Page CSS Ends --------------------------------------------------------------- */
+
+
+/* Shop Page CSS Starts */
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    background-color: var(--primary-background);
+    color:#fff;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: var(--btn-hover-color);
+    color: white;
+    border: 1px solid #2a2d26;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: rgb(114, 114, 114);}
+  
+  /* Shop Page CSS Ends  */
+
+  /* Single Product Page 1 (Cloth) CSS starts */
+  .product-details-links{
+    color: var(--primary-background);
+    text-decoration: underline;
+}
+
+/* Modal buttons */
+.modal-btn-close {
+    padding: 5px 10px;
+    background-color: var(--primary-background);
+    color: #fff;
+}
+.modal-btn-save {
+    padding: 5px 10px;
+    background-color: forestgreen;
+    color: #fff;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: transparent;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+  /* Single Product Page 1 (Cloth) CSS ends --------------------------------------------------- */
+
+   /* Single Product Page 2 (items) CSS starts */
+        /* Accordion */
+        .accordion-p {
+            /* background-color: #eee; */
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border-bottom: 1px solid #2a2d26;
+    
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+          }
+          
+          .active, .accordion-p:hover {
+            background-color: #ccc;
+          }
+          
+          .accordion-p:after {
+            content: '\002B';
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+          }
+          
+          .active.accordion-p:after {
+            content: "\2212";
+          }
+          
+          .panel-p {
+            padding: 10px 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+          }
+
+  /* Single Product Page 2 (items) CSS ends --------------------------------------------------- */
+
+  /*
+   Textbook Page CSS starts
+  ----------------------------------------------------------------------------------
+   */
+
+  .textbook-bg {
+    background: url("../../assets/images/myimage/Textbooks-Banner-Image.jpg");
+    /* height: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    
+}
+.change-btn {
+    background-color: var(--primary-background);
+    padding: 5px 15px;
+    color: white;
+}
+      /* Custom style for accordion  */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+  }
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    }
+
+    .change-btn {
+        color: #fff;
+        text-decoration: none;
+        background: red ;
+        padding: 6px 10px;
+        margin: 0px 10px;
+        box-shadow: 0px 0px 2px 0px #000;
+       
+      }
+
+  /* Textbook Page CSS ends ---------------------------------------------------------------------- */
+
+  /* Other Page CSS */
+  .otherPage-hero {
+    background: url("../../assets/images/myimage/Banner-Video-Banner-Image.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* letter-spacing: 2px;    */
+  }
+.center {
+  margin-top: 215px;
+}
+
+.custom-btn {
+  display: block;
+  width: 60%;
+  height: 50px;
+  line-height: 45px;
+  background: var(--primary-background);
+  text-align: center;
+  border: 0;
+ 
+  font-size: 14px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  margin: auto;
+  font-weight: 600;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  color: #fff;
+  opacity: 0;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.custom-btn:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--primary-background);
+  z-index: -1;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+  opacity: 0;
+}
+.custom-btn.hover {
+  color: #fff;
+  background-color: #2d2a26;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(153, 63, 107, 0.5);
+          box-shadow: 0 5px 15px 0 rgba(153, 63, 107, 0.5);
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+.h1-banner{
+  height: 120px;
+  background: var(--primary-background);
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1-banner h1 {
+  color: #ffffff;
+  font-size: 56px;
+  margin-bottom: 0px;
+}
+.return-policy ul li {
+  list-style-type: disc;
+  margin-left: 35px;
+}
+.brand-logo-mobile {
+  display: none;
+}
+.brand-logo-ipad {
+  display: none;
+}
+.youtubeframsize {
+  width: 780px;
+  height: 450px;
+}
+.aboutus-para {
+  height: 400px;
+}
+.dual-button {
+  margin-top: 25px;
+}
+
+/* Add Embroidery Accordion CSS  */
+
+.accordionAddEm {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+ 
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordionAddEm:hover {
+  color: rgb(0, 0, 0); 
+}
+
+.panelAddEm {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.inputRadioAddEm{
+  display: inline;
+  line-height: 0px;
+  height: 15px;
+  font-size: 15px;
+  width: 10%;
+  background: transparent;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  text-align: left;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  outline: 0;
+}
+
+.DressColor {
+  max-width: 200px;
+  height: 120px;
+  background: #3e136c;
+  padding: 5px;
+  text-align: center;
+}
+#Namefont {
+  Padding-top: 15px;
+  color: #fff;
+  margin: 15px;
+}
+/* .hideEm{
+  display: none;
+} */
+.manimage{
+  margin-top: 40px;
+}
+.AddEmInput{
+  max-width:315px;
+  margin-left: 5px;
+}
+ 
+  /* Media Query  */
+  @media only screen and (min-width:320px) and (max-width:479px) {
+    /* .header-log img {
+      width: 200px;
+      height: auto;
+    } */
+    .more {
+      padding: 30px 25px;
+    }
+    .more h2 {
+      font-size: 50px;
+    }
+    .more p {
+      margin: 25px 35px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .sign-up h2 {
+      font-size: 40px;
+    }
+    .sign-up h4 {
+      font-size: 25px;
+    }
+    .sign-up-form {
+      width: 250px;
+    }
+    .card-center {
+      margin: 50px auto;
+    }
+    .card-center h2 {
+      font-size: 50px;
+    }
+    .discountcard {
+      margin-bottom: 5px;
+    }
+    .alert {
+      font-size: 11px;
+  }
+    .visitcampus {
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    .visitcampus .campus {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+    .single-wedge {
+      text-align: center;
+    }
+    .hidden-widget {
+      display: none;
+    }
+    .bottom-footer {
+      flex-direction: column;
+    }
+    .bottom-footer .link-follow {
+      margin-bottom: 15px;
+    }
+    .footer-area .footer-top {
+      padding-bottom: 0px;
+    }
+    .h1-banner {
+      height: 100px;
+    }
+    .h1-banner h1 {
+      font-size: 35px;
+    }
+    #login-btn{
+      display: none;
+    }
+    .display-wrapper {
+      display: none;
+    }
+    .slider-height {
+      height: 525px;
+      padding-top: 45px;
+    }
+    .trend-mid {
+      height: 300px;
+    }
+    .partner-logo li {
+      flex-direction: column;
+    }
+    .brand-logo-desktop{
+      display: none;
+    }
+    .brand-logo-ipad {
+      display: none;
+    }
+    .brand-logo-mobile {
+      display: block;
+    }
+    .deal-image {
+      display: none;
+    }
+    .line-two {
+      font-size: 30px;
+      padding: 25px;
+      text-align: center;
+    }
+    .cardinput {
+      width: 96%;
+    }
+    .shop-sidebar-wrap .sidebar-widget-search {
+      margin: 0px 25px 0px;
+    }
+    .sidebar-div {
+      margin-bottom: 0px;
+    }
+    .faq-background-img {
+      height: 300px;
+    }
+    .buyback-hero {
+      height: 300px;
+      padding: 35px;
+      text-align: center;
+    }
+    .faq-button {
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .faq-button a {
+      margin: 10px 0px;
+      text-align: center;
+    }
+    .youtubeframsize {
+      width: 350px;
+      height: 300px;
+    }
+    .aboutus-para {
+      height: 250px;
+    }
+    .footer-area .footer-top .single-wedge .footer-herading {
+      margin-bottom: 5px;
+    }
+    .footer-links {
+      margin-bottom: 25px;
+    }
+    .shop-sidebar-wrap .sidebar-widget {
+      padding-top: 25px;
+    }
+    .mb-30px0px {
+      margin-bottom: 25px;
+    }
+    .dual-button {
+      margin-top: 10px;
+    }
+    .center {
+      margin-top: 5px;
+    }
+  .halfPage {
+    padding-top: 35px;
+  }
+  .single-contacts {
+    flex-direction: column;
+  }
+  }
+
+  /* Ipad Screen media query */
+  @media only screen and (min-width:767px) and (max-width:990px) {
+    .trend-mid {
+      height: 300px;
+    }
+    /* .shop-now {
+      padding: 10px 0px;
+      width: 150px;
+      display: inline-block;
+    } */
+    .textbook-hero{
+      height: 300px;
+    }
+    .cardinput {
+      width: 96%;
+    }
+    .brand-logo-ipad {
+      display: block;
+    }
+    .brand-logo-mobile  {
+      display: none;
+    }
+    .brand-logo-desktop {
+      display: none;
+    } 
+    .youbox {
+      margin: 5px 0px;
+    }
+    .youtubeframsize {
+      width: 450px;
+      height: 300px;
+    }
+    .hidden-widget {
+      display: none;
+    }
+    .bottom-footer {
+      flex-direction: column;
+    }
+    .bottom-footer .link-follow {
+      margin-bottom: 15px;
+    }
+    .footer-logo-main-div {
+      width: 15%;
+    }
+    .footer-logo a img {
+      width: 100%;
+    }
+    .mb-30px0px {
+      margin-bottom: 25px;
+    }
+    .dual-button {
+      margin-top: 0px;
+    }
+    .center {
+      margin-top: 30px;
+    }
+    .aboutus-para {
+      height: 270px;
+    }
+    .faq-button .btn-faq {
+      padding: 5px 30px;
+      
+    }
+  }
+
+  /* code for Other page video Background */
+
+.section-Video {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(7, 183, 247, 0.356);
+  width: 100%;
+  height: 600px;
+  opacity: 0.5;
+}
+.text-container {
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+  /* code for Other page video Background */
+
+  /* Other Page section Hide */
+  /* .otherPage-hero {
+    display: none;
+  } */
+.icons-box {
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%); */
+  background-color: #eb313e;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+  /* .icons-box img {
+    background-color: red;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+  } */
+  .single-contacts {
+    display: flex;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid rgb(231, 230, 230);
+  }
+  .information-box {
+    
+    margin-left: 25px;
+  }
+  .information-box a {
+    text-decoration: none;
+    color: #000;
+  }
+
+.blank-container{
+  min-height: 500px;
+  background-color: #ddd;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

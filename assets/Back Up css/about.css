@@ -1,0 +1,7 @@
+.youtube-video {
+    background-image: url("/assets/images/myimage/leaves.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 600px; */
+}
